@@ -1,7 +1,7 @@
 {
   "name": "ember-ext-pop-over",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Extended ember-pop-over component with adding/removing custom class to element and executing user callback function on show/hide events.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -37,10 +37,12 @@
     "ember-load-initializers": "^0.5.0",
     "ember-resolver": "^2.0.3",
     "ember-try": "^0.1.2",
-    "loader.js": "^4.0.0"
+    "loader.js": "^4.0.0",
+    "ember-pop-over": "0.1.30"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ext-pop-over"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.5"
