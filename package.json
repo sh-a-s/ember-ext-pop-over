@@ -1,6 +1,6 @@
 {
   "name": "ember-ext-pop-over",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Extended ember-pop-over component with adding/removing custom class to element and executing user callback function on show/hide events.",
   "directories": {
     "doc": "doc",
