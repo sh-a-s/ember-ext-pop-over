@@ -6,6 +6,7 @@ export default PopOver.extend({
     activeClass: null,
     onShowCallback: null,
     onHideCallback: null,
+    onTileCallback: null,
 
     init(){
         this._super(...arguments);
@@ -43,5 +44,14 @@ export default PopOver.extend({
             onShowCallback();
         }
         this._super(...arguments);
+    },
+
+    tile() {
+        this._super(...arguments);
+
+        let onTileCallback = this.get('onTileCallback');
+        if (typeof onTileCallback === 'function') {
+            onTileCallback();
+        }
     }
 });
