@@ -22,6 +22,7 @@ export default PopOver.extend({
         $targets.each((i, el) => {
             Ember.$(el.element).removeClass(Ember.get(this, 'activeClass'));
         });
+
     },
 
     hide() {
