@@ -38,7 +38,7 @@
     "ember-resolver": "^2.0.3",
     "ember-try": "^0.1.2",
     "loader.js": "^4.0.0",
-    "ember-pop-over": "0.1.30"
+    "ember-pop-over": "^0.1.31"
   },
   "keywords": [
     "ember-addon"
