@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-ext-pop-over'
+  name: 'ext-pop-over'
 };
