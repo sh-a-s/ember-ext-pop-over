@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import PopOver from "ember-pop-over/components/pop-over";
+import PopOver from "ember-pop-over";
 
 export default PopOver.extend({
     layoutName: 'components/pop-over',
